@@ -335,13 +335,8 @@ async def _(event):
                         await sython(functions.channels.UpdateUsernameRequest(
                             channel=ch, username=username))
                         await event.client.send_message(event.chat_id, f'''
-↻ 𝙬𝙝𝙤 𝙙𝙞𝙙 𝙞𝙩 ?
-↻ 𝙞 𝙙𝙞𝙙𝙣'𝙩 𝙝𝙚𝙖𝙧 𝙬𝙝𝙤 𝙙𝙞𝙙 𝙞𝙩 ?
-↻ 𝙮𝙚𝙨, 𝙯𝙚𝙧𝙤 𝙙𝙞𝙙 𝙞𝙩 
-↻ 𝙗𝙚𝙚𝙣 𝙘𝙖𝙪𝙜𝙝𝙩 : ❲ @{username} ❳
-↻ 𝙘𝙡𝙞𝙘𝙠𝙨 : ❲ {trys} ❳ 
-↻ 𝙗𝙮 : ❲ {name} ❳
-↻ 𝙘𝙤𝙣𝙩𝙞𝙣𝙪𝙚 𝙩𝙤 : @illl0
+DoNe Caught before @ziii0 🧞
+User - - > @{username} 
     ''')
                         break
                     except telethon.errors.rpcerrorlist.UsernameInvalidError:
@@ -372,13 +367,8 @@ async def _(event):
                 await sython(functions.channels.UpdateUsernameRequest(
                     channel=ch, username=username))
                 await event.client.send_message(event.chat_id, f'''
-↻ 𝙬𝙝𝙤 𝙙𝙞𝙙 𝙞𝙩 ?
-↻ 𝙞 𝙙𝙞𝙙𝙣'𝙩 𝙝𝙚𝙖𝙧 𝙬𝙝𝙤 𝙙𝙞𝙙 𝙞𝙩 ?
-↻ 𝙮𝙚𝙨, 𝙯𝙚𝙧𝙤 𝙙𝙞𝙙 𝙞𝙩 
-↻ 𝙗𝙚𝙚𝙣 𝙘𝙖𝙪𝙜𝙝𝙩 : ❲ @{username} ❳
-↻ 𝙘𝙡𝙞𝙘𝙠𝙨 : ❲ {trys} ❳ 
-↻ 𝙗𝙮 : ❲ {name} ❳
-↻ 𝙘𝙤𝙣𝙩𝙞𝙣𝙪𝙚 𝙩𝙤 : @illl0
+DoNe Caught before @ziii0 🧞
+User - - > @{username} 
     ''')
             except telethon.errors.rpcerrorlist.UsernameInvalidError:
                 await event.client.send_message(event.chat_id, f"مبند `{username}` ❌❌")
